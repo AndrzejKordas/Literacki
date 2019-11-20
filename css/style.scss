@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+@import 'czastki/fonty';
+@import 'czastki/typografia';
+  
+@import "functions";
+@import "variables";
+  
+@import "czastki/breakpoints";
+@import "czastki/grid-framework";
+@import "czastki/grid";
+  
+@import "grid";
+@import "czastki/display";
+@import "czastki/flex";
+@import "czastki/spacing";

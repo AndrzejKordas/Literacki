@@ -1,0 +1,203 @@
+*{
+transition: all 0.5s;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+a{
+  color:#444;
+  text-decoration: none;
+  &a:hover{
+    color:#994730;
+  }
+}
+.naglTool{
+    font-family: 'Oswald';
+    font-weight:500; 
+    text-transform: uppercase;
+    margin-bottom:0;
+  }
+  .tytulArt{
+    font-family: 'Impact';
+    text-transform: uppercase;
+    font-weight:normal; 
+    font-size: 1.5rem;
+    margin-bottom:0;
+  }
+  .subHeder{
+    font-family: 'Oswald';
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top:0;
+  }
+  .naglMain{
+    font-family:'TrajaR';
+    text-transform: uppercase;
+    font-size: 1.7rem;
+  }
+  .naglMainM{
+    font-family:'TrajaR';
+    text-transform: uppercase;
+  }
+  input{
+    border:2px solid #000;
+    width: 100%;
+    display: block;
+    padding: 0.2rem;
+  }
+  /* --------- top --------- */
+  .spacing-top{
+    margin-top:2rem;
+  }
+  .text-center{
+    text-align: center;
+  }
+  .brend{
+    font-size: 4.5vw;
+    font-weight:normal;
+    @media(max-width:970px){
+      font-size: 3.2rem;
+    }
+    @media(max-width:420px){
+      font-size: 2rem;
+    }
+  }
+  .male{
+    font-size: 2.2vw;
+    @media(max-width:970px){
+      font-size: 1.5rem;
+    }
+  }
+  .social{
+    display: flex;
+    padding-bottom:1rem;
+    @media(max-width:970px){
+      justify-content: center;
+    }
+  }
+  .logo h1{
+    margin: 0;
+  }
+  .ikonyS{
+    width:25px;
+    margin-left:3px;
+    @media(max-width:970px){
+      font-size: 20px;
+    }
+  }
+  /* --------- row2 --------- */
+  .prawa{
+    h3:first-child{
+      margin-top:0;
+    }
+  }
+  .img-full{
+    max-width: 100%;
+    height: auto;
+  }
+  ul.linkiPrawa{
+    padding:0;
+    margin:0 0 2rem 0;
+    a{
+      color:#444;
+      text-decoration: none;
+    }
+   }
+  .linkiPrawa{
+    li{
+    list-style: none;
+    margin-bottom:0.5rem;
+    }
+  }
+  /*---------------------------*/
+.slider{
+  border-top:2px solid #000;
+  padding-top:0.7rem;  
+}
+  .linia{
+ border-bottom:2px solid #000;
+ padding:0.5rem;
+}
+.lid{
+  background: #e8e2e3;
+  box-sizing: border-box;
+  padding:0.7rem;
+}
+/*---------------------------*/
+
+.reklama{
+  border:2px solid #000;
+  width: 100%;
+  height:20vh;
+  margin: 3rem 0;
+  font-family: 'Oswald';
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+/*---------------------------*/
+
+.blackPasek{
+  background: #231f20;
+  color:#fff;
+  padding: 2rem;
+  box-sizing: border-box;
+  font-size:2rem;
+  text-align: center;
+  vertical-align: middle;
+}
+.linkiBottom{
+  display:flex;
+  justify-content: space-between;
+  a{
+    font-family: 'Oswald';
+    font-weight: 500;
+    color:#fff;
+    font-size:1.2rem;
+    &:hover{
+      color:#D67C58;
+    }
+  }
+}
+.aligVer{
+display:flex;
+  align-items: center;
+  padding-bottom:1.5rem;
+}
+
+/*----------------------------*/
+
+.newsletter{
+  border-top:2px solid #000;
+  border-bottom:2px solid #000; 
+  padding:2rem 0; 
+  margin:2rem 0; 
+}
+.marginTop{
+  padding-top: 3rem;
+}
+.img-80{
+  display: block;
+  width: 80%;
+  margin:auto;
+}
+/*----------------------------*/
+.red{
+      background-color: red;
+  }
+  .blue{
+    background-color: blue;
+  }
+  .grey{
+      background-color: grey;
+  }
+  .orange{
+      background-color: orange;
+  }
